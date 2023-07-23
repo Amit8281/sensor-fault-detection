@@ -22,6 +22,15 @@ pip install -r requirements.txt
 ```
 python app.py
 ```
+6.train app.py
+```
+http://localhost:5000/train
+```
+7. Predict app.py
+```
+http://localhost:5000/predict
+```
+drop test.csv you will get a new csv file where you will get predicted output column
 
 🔧 Built with
 - flask
